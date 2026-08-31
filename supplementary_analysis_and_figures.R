@@ -1,5 +1,12 @@
+#' ---
+#' title: "Combined Supplementary Analysis"
+#' author: ""
+#' date: ""
+#' output: html_document
+#' ---
+
 # ==============================================================================
-# Combined dissertation audit: Methodology figures, Results and Discussion
+# Combined Supplementary Analysis: Methodology figures, Results and Discussion
 # ==============================================================================
 # Renders to HTML with knitr::spin():
 #   knitr::spin("supplementary_analysis_and_figures.R", knit = FALSE)
@@ -14,9 +21,6 @@
 # Outputs are written to supplementary/Methodology/, supplementary/Results/
 # supplementary/Discussion/ and supplementary/Appendix_B/.
 # ==============================================================================
-#
-#' # Combined dissertation audit
-#' Methodology figures, Chapter 4 Results audit and Discussion data verification.
 
 # ==============================================================================
 # Shared project setup
