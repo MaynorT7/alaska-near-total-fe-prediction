@@ -27,7 +27,7 @@ alaska-near-total-fe-prediction/
 │   └── Model_V4.R                           — V4 fine-terrain and drainage increment
 ├── preprocess_all.R                         — staged preprocessing and shared-fold orchestration
 ├── compare_models.R                         — paired model comparison and CSV export
-├── supplementary_analysis_and_figures.R    — figures, numerical verification and Appendix B
+├── supplementary_analysis_and_figures.R     — figures, numerical verification and Appendix B
 ├── data/                                    — local source and generated data; not tracked
 ├── README.md
 └── .gitignore
