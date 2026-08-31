@@ -1,0 +1,50 @@
+# ==============================================================================
+# Alaska Near-Total Fe Prediction — .gitignore
+# ==============================================================================
+
+# ---- Source data and generated data artefacts (not distributed) --------------
+data/
+
+# ---- Generated model outputs --------------------------------------------------
+model_comparison.csv
+Model_V1/outputs/
+Model_V2/outputs/
+Model_V3/outputs/
+Model_V4/outputs/
+
+# ---- Supplementary and figure outputs ----------------------------------------
+supplementary/
+figures/
+
+# ---- Rendered audit documents ------------------------------------------------
+supplementary_analysis_and_figures.Rmd
+supplementary_analysis_and_figures.html
+supplementary_analysis_and_figures_files/
+supplementary_analysis_and_figures_cache/
+supplementary_results.html
+
+# ---- High-resolution figures -------------------------------------------------
+*.tiff
+*.pdf
+
+# ---- R session and project artefacts -----------------------------------------
+.Rproj.user/
+.Rhistory
+.RData
+.Rdata
+.Ruserdata
+*.Rproj
+
+# ---- OS and editor artefacts --------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+\#*\#
+.vscode/
+.idea/
+
+# ---- Temporary and compiled files --------------------------------------------
+*.o
+*.so
+*.dll
